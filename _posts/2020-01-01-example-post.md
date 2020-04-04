@@ -6,14 +6,29 @@ published: true
 
 This is an example post. You can edit it or create a new one
 
-<table id="myTable2">
-<tr>
-<!--When a header is clicked, run the sortTable function, with a parameter,
-0 for sorting by names, 1 for sorting by country: -->
-<th onclick="sortTable(0)">Name</th>
-<th onclick="sortTable(1)">Country</th>
-</tr>
-...
+<table id="myTable2" style="width:100%">
+  <tr>
+    <!--When a header is clicked, run the sortTable function, with a parameter,
+    0 for sorting by names, 1 for sorting by country: -->
+    <th onclick="sortTable(0)">Name</th>
+    <th onclick="sortTable(1)">Position</th>
+  </tr>
+  <tr>
+  <td>
+    Name1
+  </td>
+  <td>
+    Pos1
+  </td>
+  </tr>
+  <tr>
+  <td>
+    Name2
+  </td>
+  <td>
+    Pos2
+  </td>
+  </tr>
 
 <script>
 function sortTable(n) {
